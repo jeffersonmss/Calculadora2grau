@@ -28,7 +28,7 @@ public class Calculadora2Grau {
        
    }
    
-   
+   // Calcula o x1 da equação    
    public Double calculaX1(String delta, String valorA, String valorB){
        
        Double valorDelta = Double.parseDouble(delta);
@@ -42,7 +42,7 @@ public class Calculadora2Grau {
        
        
    }
-   
+   // Calcula o x2 da equação
    public Double calculaX2(String delta, String valorA, String valorB){
        
        Double valorDelta = Double.parseDouble(delta);

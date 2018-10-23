@@ -204,7 +204,7 @@ public class TelaCalculo extends javax.swing.JFrame {
                 
             } else{
                 
-                jlMsgX1.setText("Delta é menor que 0, numero negativo não tem Raiz");
+                jlMsgX1.setText("Não é possível calcular raiz de número negativo");
                 jlMsgX1.setVisible(true);
                 jlMsgX1.setForeground(Color.red);
                 
